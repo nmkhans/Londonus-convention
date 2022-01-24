@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* ==================================
+    Header Area Style
+============================*/
+
 .header_area a small {
     color: #3F87F5;
 }
@@ -29,6 +33,10 @@ ul.navbar-nav li a:hover {
 ul.navbar-nav li a:hover::after {
     width: 100%;
 }
+
+/* ==================================
+    Slider Area Style
+============================*/
 
 .carousel-item {
     position: relative;
@@ -79,6 +87,14 @@ ul.navbar-nav li a:hover::after {
     width: 100%;
 }
 
+/* ==================================
+    Feature Area Style
+============================*/
+
+.feature_area {
+    padding: 100px 0;
+}
+
 .feature_text a {
     transition: .5s;
 }
@@ -88,4 +104,9 @@ ul.navbar-nav li a:hover::after {
     color: #3F87F5 !important;
     border: 1px solid #3F87F5;
     transform: scale(1.1) !important;
+}
+
+.feature_toast {
+    top: 0%;
+    right: -5%;
 }
