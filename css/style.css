@@ -279,3 +279,30 @@ ul.navbar-nav li a:hover::after {
     color: #747474;
     font-size: 14px;
 }
+
+/* ==================================
+    FAQ Area Style
+============================*/
+
+.faq_area {
+    padding: 100px 0;
+}
+
+.faq_title {
+    margin-bottom: 100px;
+}
+
+.accordion-item {
+    border: 1px solid #D5E5FB;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #fff !important;
+    box-shadow: none !important;
+    color: #383838 !important;
+}
+
+.accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none;
+}
