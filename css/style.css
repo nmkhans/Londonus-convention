@@ -6,7 +6,7 @@
     Header Area Style
 ============================*/
 
-.header_area a small {
+.header_area a sup {
     color: #3F87F5;
 }
 
@@ -109,4 +109,138 @@ ul.navbar-nav li a:hover::after {
 .feature_toast {
     top: 0%;
     right: -5%;
+}
+
+/* ==================================
+    Package Area Style
+============================*/
+
+.package_area {
+    padding: 50px 0 100px;
+}
+
+.package_title {
+    margin-bottom: 50px;
+}
+
+.card {
+    padding: 30px 30px 30px 20px;
+    border-radius: 20px;
+}
+
+.card-header h2, 
+.card-header h3 {
+    color: #231D4F;
+    font-weight: 600;
+}
+
+.card-body p {
+    color: #848199;
+}
+
+.package_list p span {
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: rgba(82, 67, 194, 0.103693);
+    color: #5243C2;
+    margin-right: 10px;
+}
+
+.package_btn {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(244, 150, 209, .2);
+    color: #3F87F5;
+    border-radius: 24px;
+    padding: 15px 60px;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    background: #3F87F5 !important;
+    color: #fff !important;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+
+.card-header {
+    transition: .5s;
+}
+
+.card:hover .card-header {
+    background: #3F87F5 !important;
+    color: #fff !important; 
+}
+
+.card-title {
+    transition: .5s;
+}
+
+.card:hover .card-header .card-title {
+    color: #fff !important;
+}
+
+.card-text {
+    transition: .5s;
+}
+
+.card:hover .card-text {
+    color: #fff !important;
+}
+
+.card:hover .package_list p {
+    transition: .5s;
+}
+
+.card:hover .package_list p {
+    color: #fff !important;
+}
+
+.package_list p span {
+    transition: .5s;
+}
+
+.card:hover .package_list p span {
+    color: #fff !important;
+    background: rgba(255,255,255,.1);
+}
+
+.card-footer {
+    transition: .5s;
+}
+
+.card:hover .card-footer {
+    background: #3F87F5 !important;
+    color: #fff !important; 
+}
+
+.package_btn {
+    transition: .5s;
+}
+
+.card:hover .package_btn {
+    background: #fff;
+    color: #3F87F5;
+}
+
+.badge {
+    top: -3%;
+    right: 10%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: translateY(10px);
+}
+
+.col:nth-child(2):hover .badge {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
