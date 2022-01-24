@@ -306,3 +306,16 @@ ul.navbar-nav li a:hover::after {
     border-color: none !important;
     box-shadow: none;
 }
+
+/* Footer Area */
+
+.footer_area {
+    background: #0B0D17;
+    color: #D9DBE1;
+    padding: 50px 0;
+}
+
+.footer_app span:first-child img {
+    display: inline-block;
+    margin-top: 9px;
+}
