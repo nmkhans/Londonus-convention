@@ -1,0 +1,13 @@
+@media all and (min-width: 200px) and (max-width: 991px) {
+    .carousel-caption {
+        display: none !important;
+    }
+
+    .feature_toast {
+        top: -23%;
+    }
+
+    .footer_content p {
+        text-align: center;
+    }
+}

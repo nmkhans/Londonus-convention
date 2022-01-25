@@ -239,7 +239,7 @@ ul.navbar-nav li a:hover::after {
     transform: translateY(10px);
 }
 
-.col:nth-child(2):hover .badge {
+.col-lg-4:nth-child(2):hover .badge {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
