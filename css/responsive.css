@@ -11,3 +11,14 @@
         text-align: center;
     }
 }
+
+@media all and (min-width: 200px) and (max-width: 768px) {
+    .feature_toast {
+        top: -17%;
+        right: -2%;
+    }
+
+    .footer_app a {
+        display: block;
+    }
+}
