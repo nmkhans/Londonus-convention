@@ -10,6 +10,11 @@
     .footer_content p {
         text-align: center;
     }
+
+    .card_space {
+        top: 20px;
+        margin-top: 20px;
+    }
 }
 
 @media all and (min-width: 200px) and (max-width: 768px) {
@@ -20,5 +25,14 @@
 
     .footer_app a {
         display: block;
+    }
+
+    .card_spacet {
+        top: 20px;
+        margin-top: 20px;
+    }
+
+    .badge {
+        top: 5%;
     }
 }
