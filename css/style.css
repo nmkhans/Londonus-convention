@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* ==================================
@@ -7,11 +7,11 @@
 ============================*/
 
 .header_area a sup {
-    color: #3F87F5;
+    color: #3f87f5;
 }
 
 ul.navbar-nav li a {
-    transition: .5s;
+    transition: 0.5s;
     position: relative;
 }
 
@@ -22,12 +22,12 @@ ul.navbar-nav li a::after {
     left: 0;
     height: 1px;
     width: 0;
-    background: #3F87F5;
-    transition: .5s;
+    background: #3f87f5;
+    transition: 0.5s;
 }
 
 ul.navbar-nav li a:hover {
-    color: #3F87F5 !important;
+    color: #3f87f5 !important;
 }
 
 ul.navbar-nav li a:hover::after {
@@ -55,13 +55,13 @@ ul.navbar-nav li a:hover::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption button {
     border-radius: 5px;
     position: relative;
-    transition: .5s;
+    transition: 0.5s;
     border: none;
     z-index: 1;
 }
@@ -77,9 +77,9 @@ ul.navbar-nav li a:hover::after {
     left: 0;
     height: 100%;
     width: 0;
-    background: #3F87F5;
+    background: #3f87f5;
     border-radius: 5px;
-    transition: .5s;
+    transition: 0.5s;
     z-index: -1;
 }
 
@@ -96,13 +96,13 @@ ul.navbar-nav li a:hover::after {
 }
 
 .feature_text a {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .feature_text a:hover {
     background-color: #fff !important;
-    color: #3F87F5 !important;
-    border: 1px solid #3F87F5;
+    color: #3f87f5 !important;
+    border: 1px solid #3f87f5;
     transform: scale(1.1) !important;
 }
 
@@ -128,9 +128,9 @@ ul.navbar-nav li a:hover::after {
     border-radius: 20px;
 }
 
-.card-header h2, 
+.card-header h2,
 .card-header h3 {
-    color: #231D4F;
+    color: #231d4f;
     font-weight: 600;
 }
 
@@ -146,40 +146,40 @@ ul.navbar-nav li a:hover::after {
     line-height: 30px;
     border-radius: 50%;
     background: rgba(82, 67, 194, 0.103693);
-    color: #5243C2;
+    color: #5243c2;
     margin-right: 10px;
 }
 
 .package_btn {
     display: inline-block;
     text-decoration: none;
-    background: rgba(244, 150, 209, .2);
-    color: #3F87F5;
+    background: rgba(244, 150, 209, 0.2);
+    color: #3f87f5;
     border-radius: 24px;
     padding: 15px 60px;
 }
 
 .card {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover {
-    background: #3F87F5 !important;
+    background: #3f87f5 !important;
     color: #fff !important;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
 
 .card-header {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover .card-header {
-    background: #3F87F5 !important;
-    color: #fff !important; 
+    background: #3f87f5 !important;
+    color: #fff !important;
 }
 
 .card-title {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover .card-header .card-title {
@@ -187,7 +187,7 @@ ul.navbar-nav li a:hover::after {
 }
 
 .card-text {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover .card-text {
@@ -195,7 +195,7 @@ ul.navbar-nav li a:hover::after {
 }
 
 .card:hover .package_list p {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover .package_list p {
@@ -203,30 +203,30 @@ ul.navbar-nav li a:hover::after {
 }
 
 .package_list p span {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover .package_list p span {
     color: #fff !important;
-    background: rgba(255,255,255,.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .card-footer {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover .card-footer {
-    background: #3F87F5 !important;
-    color: #fff !important; 
+    background: #3f87f5 !important;
+    color: #fff !important;
 }
 
 .package_btn {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card:hover .package_btn {
     background: #fff;
-    color: #3F87F5;
+    color: #3f87f5;
 }
 
 .badge {
@@ -235,7 +235,7 @@ ul.navbar-nav li a:hover::after {
     z-index: 1;
     opacity: 0;
     visibility: hidden;
-    transition: .5s;
+    transition: 0.5s;
     transform: translateY(10px);
 }
 
@@ -265,19 +265,71 @@ ul.navbar-nav li a:hover::after {
 }
 
 .testimonial_card p {
-    color: #6C6C6C;
+    color: #6c6c6c;
 }
 
 .testimonial_card h4 {
     font-size: 15px;
     font-weight: 600;
-    color: #0C1920;
+    color: #0c1920;
     padding-top: 20px;
 }
 
 .testimonial_card h5 {
     color: #747474;
     font-size: 14px;
+}
+
+/* ==================================
+    Blog Area Style
+============================*/
+
+.blog_area {
+    padding: 80px 0;
+}
+
+.blog_card {
+    box-shadow: 0px 12px 30px 0px #00000021;
+}
+
+.blog_card_content {
+    margin-top: 10px;
+}
+
+.blog_card_content h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog_card_content p {
+    color: #6c6c6c;
+    font-size: 15px;
+}
+
+.blog_card_btn a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: right;
+    background: var(--bs-info);
+    border: 1px solid var(--bs-info);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.blog_card_btn a:hover {
+    background: #fff;
+    color: var(--bs-info);
+}
+
+.blog_card_content .badge {
+    display: inline-block;
+    opacity: 1;
+    visibility: visible;
+    right: 5%;
+    top: -35%;
 }
 
 /* ==================================
@@ -293,7 +345,7 @@ ul.navbar-nav li a:hover::after {
 }
 
 .accordion-item {
-    border: 1px solid #D5E5FB;
+    border: 1px solid #d5e5fb;
 }
 
 .accordion-button:not(.collapsed) {
@@ -310,12 +362,12 @@ ul.navbar-nav li a:hover::after {
 /* Footer Area */
 
 .footer_area {
-    background: #0B0D17;
-    color: #D9DBE1;
+    background: #0b0d17;
+    color: #d9dbe1;
     padding: 50px 0;
 }
 
-.footer_app span:first-child img {
+.footer_app a:first-child img {
     display: inline-block;
-    margin-top: 9px;
+    margin-top: 7px;
 }
